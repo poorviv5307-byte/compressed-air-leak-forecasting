@@ -1,0 +1,47 @@
+{
+  "simulation": {
+    "days": 60,
+    "interval_min": 15,
+    "leak_schedule_m3min": {
+      "d0-19": 1.2,
+      "d20-39": 2.5,
+      "d40-59": 4.0
+    }
+  },
+  "leak_detection": {
+    "baseline_mean_m3min": 1.199,
+    "threshold_m3min": 1.699,
+    "first_alert_day": 21,
+    "detection_delay_days": 1,
+    "rule_precision_recall_f1": [
+      1.0,
+      0.975,
+      0.987
+    ],
+    "isolation_forest_precision_recall_f1": [
+      0.619,
+      0.325,
+      0.426
+    ],
+    "estimated_extra_leak_m3min": 2.792,
+    "true_extra_leak_m3min": 2.8,
+    "est_annual_leak_cost_INR": 123254
+  },
+  "forecasting_1h_ahead": {
+    "gradient_boosting": {
+      "MAE": 0.2809,
+      "RMSE": 0.4226,
+      "MAPE_%": 3.46
+    },
+    "seasonal_naive": {
+      "MAE": 1.918,
+      "RMSE": 3.5894,
+      "MAPE_%": 25.98
+    },
+    "persistence": {
+      "MAE": 0.9822,
+      "RMSE": 2.2532,
+      "MAPE_%": 14.16
+    }
+  }
+}
