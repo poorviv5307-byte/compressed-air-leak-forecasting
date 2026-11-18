@@ -12,7 +12,7 @@ A simulation study that detects compressed-air leaks and forecasts short-term ai
 ## Results
 
 | Task | Method | Result |
-|---|---|---|
+| --- | --- | --- |
 | Leak detection | Night-flow threshold | Alert on day 21 (leak began day 20), F1 = 0.99 |
 | Leak detection | Isolation Forest | F1 = 0.43 |
 | Leak size | Estimated from last 20 days | 2.79 m³/min (true: 2.80) |
@@ -36,13 +36,13 @@ A simulation study that detects compressed-air leaks and forecasts short-term ai
 
 Install them with:
 
-```
+```bash
 pip install pandas numpy scikit-learn matplotlib
 ```
 
 ## How to run
 
-```
+```bash
 python compressed_air_sim.py
 ```
 
@@ -56,9 +56,11 @@ The script prints the results, saves `results.json`, the CSV files, and the plot
 - The forecast horizon is one hour. Longer horizons are future work.
 
 ## Author
+
 Poorvika V,Department Robotics And AI,Dayanada Sagar University.
 
 ## Team
+
 - Poorvika V (Roll No. ENG25RA0013)
 - Janya P (Roll No. ENG25RA0010)
 - Raksha Aruna (Roll No. ENG25RA0014)
