@@ -1,6 +1,3 @@
-# compressed-air-leak-forecasting
-AI-based compressed-air leak detection and consumption forecasting using a simulated plant. Detects leaks from night-time flow and forecasts one-hour-ahead demand with gradient boosting.
-
 # AI-Based Compressed-Air Leakage Prediction and Consumption Forecasting
 
 A simulation study that detects compressed-air leaks and forecasts short-term air demand. Real plant data was not available, so the project builds a synthetic 60-day plant with known leak events, which lets each method be checked against the true answer.
