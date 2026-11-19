@@ -64,4 +64,4 @@ Poorvika V,Department Robotics And AI,Dayanada Sagar University.
 - Poorvika V (Roll No. ENG25RA0013)
 - Janya P (Roll No. ENG25RA0010)
 - Raksha Aruna (Roll No. ENG25RA0014)
-- Anajana V M (Roll No. ENG25RA0018)
+- Anjana V M (Roll No. ENG25RA0018)
