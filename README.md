@@ -57,7 +57,7 @@ The script prints the results, saves `results.json`, the CSV files, and the plot
 
 ## Author
 
-Poorvika V,Department Robotics And AI,Dayanada Sagar University.
+Poorvika V,Department Robotics And AI,Dayananda Sagar University.
 
 ## Team
 
