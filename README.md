@@ -57,11 +57,11 @@ The script prints the results, saves `results.json`, the CSV files, and the plot
 
 ## Author
 
-Poorvika V,Department Robotics And AI,Dayanada Sagar University.
+Poorvika V,Department Robotics And AI,Dayananda Sagar University.
 
 ## Team
 
 - Poorvika V (Roll No. ENG25RA0013)
 - Janya P (Roll No. ENG25RA0010)
 - Raksha Aruna (Roll No. ENG25RA0014)
-- Anajana V M (Roll No. ENG25RA0018)
+- Anjana V M (Roll No. ENG25RA0018)
