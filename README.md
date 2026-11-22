@@ -8,6 +8,7 @@ A simulation study that detects compressed-air leaks and forecasts short-term ai
 2. **Detects leaks** using nightly minimum flow (01:00 to 04:00, when no production runs). An alert fires when the nightly estimate exceeds a baseline threshold on two consecutive days. An Isolation Forest is included for comparison.
 3. **Forecasts air flow one hour ahead** with a gradient-boosting model using lagged and calendar features. It is compared with persistence and seasonal naive baselines.
 4. **Estimates the annual cost** of the extra leakage in rupees.
+**[Open the interactive results page](https://poorviv5307-byte.github.io/compressed-air-leak-forecasting/interactive_results.html)**
 
 ## Results
 
